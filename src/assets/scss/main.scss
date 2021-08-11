@@ -1,0 +1,248 @@
+:root {
+  --cursor-size: 256px;
+  --purple: #7050aa;
+  --blue: #5c56f5;
+  --navbar-size: 90px;
+  --navbar-top: 80px;
+}
+
+body {
+  background: #000;
+}
+/* Scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: rgba(0, 0, 0, 0);
+}
+::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.3);
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(255, 255, 255, 0.5);
+}
+::-webkit-scrollbar-thumb:active {
+  background: rgba(255, 255, 255, 0.7);
+}
+
+// selection
+::selection {
+  background: var(--purple);
+  color: #fff;
+}
+
+::-moz-selection {
+  background: var(--purple);
+  color: #fff;
+}
+
+main {
+  padding-left: var(--navbar-size);
+  position: absolute;
+  top: 0;
+  font-family: "Noto Sans Mono";
+  font-size: 13px;
+}
+
+@media (max-width: 768px) {
+  main {
+    padding-left: 0;
+    padding-top: var(--navbar-top);
+  }
+}
+main,
+.fullscreen {
+  width: 100%;
+  height: 100%;
+}
+
+main::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  filter: brightness(0.5) contrast(1.2);
+  background: url("../img/background.jpg") no-repeat center center
+    fixed;
+  background-size: cover;
+  z-index: -1;
+}
+
+main > section {
+  position: absolute;
+  width: calc(100% - var(--navbar-size)) !important;
+}
+
+@media (max-width: 768px) {
+  main > section {
+    position: absolute;
+    width: calc(100%) !important;
+  }
+}
+
+.fullscreen {
+  overflow-x: hidden;
+}
+
+@media (max-width: 768px) {
+  .fullscreen {
+    height: calc(100% - var(--navbar-top));
+    top: var(--navbar-top);
+  }
+}
+
+.center-vertical {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.container-l {
+  padding: 15px;
+}
+
+.themed-grid-col {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.emoji {
+  width: 20px;
+  height: 20px;
+  margin: -3px 0 0;
+}
+
+h1,
+.navbar-brand {
+  text-align: center;
+  color: var(--purple) !important;
+}
+
+h1 {
+  margin-bottom: 1rem;
+}
+
+h1,
+h2 {
+  font-family: "Qranklestein";
+}
+
+a {
+  color: var(--purple);
+}
+
+a:hover {
+  color: #3080e0;
+  text-decoration: none;
+}
+
+/* Magia Record cursor */
+.cursor {
+  width: var(--cursor-size);
+  height: var(--cursor-size);
+  position: fixed;
+  transform: translateZ(0);
+  transform: translateZ(0);
+  pointer-events: none;
+  z-index: 2000;
+  bottom: -256px;
+}
+
+.cursor .effect01,
+.cursor .effect02,
+.cursor .effect03 {
+  width: var(--cursor-size);
+  height: var(--cursor-size);
+  background-size: var(--cursor-size) !important;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: translateZ(0);
+  transform: translateZ(0);
+  pointer-events: none;
+  opacity: 0;
+}
+
+/* ça c'est bon */
+.cursor .effect01 {
+  background: url("../img/cursor/tap_effect_circle.png") left top no-repeat;
+  animation: tap_effect_circle 1s ease-in-out 0s 1 alternate;
+  animation-fill-mode: forwards;
+}
+
+.cursor .effect02 {
+  background: url("../img/cursor/tap_effect_circle_s.png") left top no-repeat;
+  animation: tap_effect_circle_s 1s ease-in-out 0s 1 alternate;
+  animation-fill-mode: forwards;
+}
+
+.cursor .effect03 {
+  background: url("../img/cursor/tap_effect_glitter.png") left top no-repeat;
+  animation: tap_effect_glitter 1s ease-in-out 0s 1 alternate;
+  animation-fill-mode: forwards;
+}
+
+@keyframes tap_effect_circle {
+  0% {
+    transform: scale(0.3) translateZ(0);
+    opacity: 0;
+  }
+  6% {
+    opacity: 0.8;
+  }
+  24% {
+    opacity: 0.8;
+  }
+  30% {
+    transform: scale(0.8) translateZ(0);
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes tap_effect_circle_s {
+  0% {
+    transform: scale(0.4) translateZ(0);
+    opacity: 0;
+  }
+  12% {
+    opacity: 0.8;
+  }
+  30% {
+    opacity: 0.8;
+  }
+  48% {
+    transform: scale(0.8) translateZ(0);
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes tap_effect_glitter {
+  0% {
+    transform: scale(0.5) translateZ(0);
+    opacity: 0;
+  }
+  18% {
+    opacity: 0.8;
+  }
+  34% {
+    opacity: 0.8;
+  }
+  58% {
+    transform: scale(0.8) translateZ(0);
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+}

@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: /equipe
+
+# l11IE*Qq0U7IrUbZY^ZS

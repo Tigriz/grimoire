@@ -1,0 +1,100 @@
+[
+    {
+        "prenom": "",
+        "nom": "",
+        "pseudo": "Papago",
+        "role": "Prêtresse",
+        "description": "Épaulée de son perroquet, elle est la prêtresse érudite, prêchant parmi le monde la bonne parole."
+    },
+    {
+        "prenom": "",
+        "nom": "",
+        "pseudo": "Jun",
+        "role": "Vice-Prêtresse",
+        "description": "Prêtresse de premier rang, on lui prophétise de grands pouvoirs."
+    },
+    {
+        "prenom": "",
+        "nom": "",
+        "pseudo": "Tigriz",
+        "role": "Trésorcière",
+        "description": "Bannie dans une autre dimension par sa famille, cette sorcière voue sa vie à la rejoindre. Elle est aussi à la recherche de la pierre philosophale (avant AlchImIE) en tant que trésorcière."
+    },
+    {
+        "prenom": "",
+        "nom": "",
+        "pseudo": "Cachoups",
+        "role": "Vice-Trésorcière",
+        "description": "Elle a le pouvoir de dessiner la destinée de ses acolytes. De la plus belle des manières."
+    },
+    {
+        "prenom": "",
+        "nom": "",
+        "pseudo": "Krokro",
+        "role": "Scribe",
+        "description": "Sa présence est omnisciente, et malgré son don pour la préparation (et la dégustation) de potions, sa communication n'en est jamais affectée."
+    },
+    {
+        "prenom": "",
+        "nom": "",
+        "pseudo": "Annie",
+        "role": "Enchanteresse",
+        "description": "Avoir de la curiosité pour la magie n'est jamais suffisant. Alors Annie s'est mise à la divination runique et aux manipulations d'énergie pour nous aider."
+    },
+    {
+        "prenom": "",
+        "nom": "",
+        "pseudo": "Elliu",
+        "role": "Inforcière",
+        "description": "Maîtrise, calme, rigueur sont ses maître-mots. Elle fait partie de la section automate."
+    },
+    {
+        "prenom": "Pierre-Marie",
+        "nom": "Lefrançois",
+        "pseudo": "PM",
+        "role": "Vidéorcière",
+        "description": "Super-héros du quotidien (ou presque)."
+    },
+    {
+        "prenom": "",
+        "nom": "",
+        "pseudo": "Bleh",
+        "role": "Nécromancienne",
+        "description": "Sorcière errante, voguant à travers champs et prés. 🌾"
+    },
+    {
+        "prenom": "",
+        "nom": "",
+        "pseudo": "Illya",
+        "role": "魔女",
+        "description": "こんにちはグーグル翻訳"
+    },
+    {
+        "prenom": "",
+        "nom": "",
+        "pseudo": "Deurstann",
+        "role": "Gecsen",
+        "description": "Sorcière ayant raté sa potion de jeunesse éternelle. Elle est maintenant coincée entre les époques mais on peut parfois la voir écrire des choses mystérieuse pendant les réunions."
+    },
+    {
+        "prenom": "",
+        "nom": "",
+        "pseudo": "Filianore",
+        "role": "Guérisseuse",
+        "description": "Sorcière exigeante s'assurant du bien-être de ses sœurs."
+    },
+    {
+        "prenom": "",
+        "nom": "",
+        "pseudo": "Miryuni",
+        "role": "Tailleuse",
+        "description": "Habile de ses mains, cette sorcière s'attelle à la création de tenue sur-mesure pour ses sœurs."
+    },
+    {
+        "prenom": "",
+        "nom": "",
+        "pseudo": "Julia",
+        "role": "Porte-Peste",
+        "description": "Sorcière des temps anciens aux multiples noms et spécialités. Une présence maudite."
+    }
+]
